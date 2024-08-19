@@ -14,7 +14,7 @@ from plotly.subplots import make_subplots
 
 import requests
 
-app = Flask(__name__, static_folder='/Users/alan/arc-dataPortalFinal/frontend/dist')
+app = Flask(__name__, static_folder='/dist')
 
 # from os import listdir
 # from os.path import isfile, join
